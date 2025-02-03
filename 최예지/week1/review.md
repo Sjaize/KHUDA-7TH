@@ -75,8 +75,6 @@ c. 딥러닝의 특징
   
 ![GD 1](Gradient_descent.png)
 
-![GD 2](Understanding_Gradient_Descent.png)
-
 
 ### 5. 경사하강법의 세 종류 (BGD, SGD, MGD)
 a. **Batch Gradient Descent Method (배치 경사 하강법)**
