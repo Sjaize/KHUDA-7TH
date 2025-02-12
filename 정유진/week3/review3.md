@@ -302,7 +302,7 @@ graph LR
 
 좋은 질문입니다! 겉보기에는 Depthwise와 Pointwise 두 단계로 나누어져서 더 많은 계산이 필요해 보이지만, 실제로는 큰 폭의 계산량 감소가 있습니다. 구체적인 수치로 비교해보겠습니다:
 
-### 지난 논의 사항 | 계산량 비교 예시
+### ✏️ 지난 논의 사항 | 계산량 비교 예시
 
 일반적인 Convolution과 Depthwise Separable Convolution을 비교해봅시다.
 
@@ -378,4 +378,3 @@ graph LR
 - [딥러닝 모델 경량화 기술 분석](https://repository.kisti.re.kr/bitstream/10580/15591/1/%28%EA%B8%B0%EC%88%A0%29%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EB%AA%A8%EB%8D%B8%20%EA%B2%BD%EB%9F%89%ED%99%94%20%EA%B8%B0%EC%88%A0%20%EB%B6%84%EC%84%9D.pdf)
 - [Deep Neural Network 경량화](https://velog.io/@juyeon048/%EB%94%A5-%EB%9F%AC%EB%8B%9D-Deep-Neural-Network-%EA%B2%BD%EB%9F%89%ED%99%94)
 - [딥러닝 경량화 튜토리얼](https://ysbsb.github.io/model_compression/2021/10/15/model-compression-guide.html)
-```
