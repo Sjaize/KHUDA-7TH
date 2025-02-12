@@ -57,17 +57,17 @@ assignees: ''
 
 ### 분류 모델 평가 지표
 - 정확도 Accuracy: 정답을 맞춘 비율 (bad 0 ~ 1 good)
-    - $$ Accuracy = \frac{TP+TN}{TP+TN+FP+FN} $$
+    - $Accuracy = \frac{TP+TN}{TP+TN+FP+FN}$
     - TP, TN: 정답인 경우 (각각 Positive, Negative로 예측한 경우)
     - FP, FN: 오답인 경우 (각각 Positive, Negative로 예측한 경우)
 - 정밀도 Precision: 모델이 Positive라고 예측한 것 중에서 Positive인 비율 (bad 0 ~ 1 good)
-    - $$ PPV = \frac{TP}{TP+FP} $$
+    - $PPV = \frac{TP}{TP+FP}$
     - Negative를 Positive라고 잘못 예측하면 안 되는 상황에서 유용
 - 재현율 Recall: 정답이 Positive인 것 중에서 모델이 Positive라고 예측한 비율 (bad 0 ~ 1 good)
-    - $$ TPR = \frac{TP}{TP+FN} $$
+    - $TPR = \frac{TP}{TP+FN}$
     - Positive를 Negative라고 잘못 예측하면 안 되는 상황에서 유용
 - F1 Score: Recall과 Precision의 조화평균 (bad 0 ~ 1 good)
-    - $$ F1 = \frac{2\times PPV \times TPR}{PPV + TPR} $$
+    - $F1 = \frac{2\times PPV \times TPR}{PPV + TPR}$
     - 두 데이터가 상호보완적이므로 사용
 
 ## 참고 문헌
